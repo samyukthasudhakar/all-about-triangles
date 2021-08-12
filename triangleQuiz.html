@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="quizForm">
+        <div>
+            <p>
+                A triangle with one 90° angle is called
+            </p>
+            <label><input type="radio" name="question1" value="Acute">Acute</label>
+            <label><input type="radio" name="question1" value="Right">Right</label>
+            <label><input type="radio" name="question1" value="Obtuse">Obtuse</label>
+        </div>
+        <div>
+            <p>
+                The sum of interior angles of a triangle add up to
+            </p>
+            <label><input type="radio" name="question2" value="90°">90°</label>
+            <label><input type="radio" name="question2" value="360°">360°</label>
+            <label><input type="radio" name="question2" value="180°">180°</label>
+        </div>
+        <div>
+            <p>
+                A triangle where all sides are congruent is called
+            </p>
+            <label><input type="radio" name="question3" value="Equilateral">Equilateral</label>
+            <label><input type="radio" name="question3" value="Isosceles">Isosceles</label>
+            <label><input type="radio" name="question3" value="Scalene">Scalene</label>
+        </div>
+    </form>
+    <button id="check">Submit</button>
+    <p id="result"></p>
+
+    <script src="triangleQuiz.js"></script>
+</body>
+</html>
