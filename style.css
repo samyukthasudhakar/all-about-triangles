@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+body{
+    background: #0d1137;
+    background-size: cover;
+    margin:0 auto;
+    font-family: Montserrat;
+    color:white;
+}
+
+nav{
+    min-width: 100%;
+    max-height:4rem;
+    background-color:#e52165;
+    
+}
+
+
+.nav-pills{
+    color:#0d1137;
+    text-decoration:none;
+    padding:0.5rem 1rem;
+    margin:1rem;
+    margin-bottom: 90rem;
+    border-radius:0.5rem;
+    font-weight:bold;
+    border-color: #e52165;
+    background-color: #e52165;
+}
+
+.parent{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+}
+.navigation-links{
+    display:flex;
+    flex-direction: row;
+    margin:auto;
+    float:right;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    margin : auto;
+    padding: 0.5rem 0; 
+    width : 50vw;
+}
+
+input,button{
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255,255,255,0.7),
+        rgba(255,255,255,0.3)
+    );
+    color:black;
+    border:none;
+    border-radius: 0.5rem;
+    margin : 1rem;
+    padding : 0.5rem;
+    outline:none;
+    display: block; 
+}
+
+#user-input{
+    min-width: 14rem;
+    min-height: 2rem;
+}
+
+::placeholder {
+    color:black;
+}
+
+.quiz-radio{
+    display: inline;
+}
+
+p{
+    color:white;
+    font-weight: bold;
+}
+
+.active-page{
+    border: solid 3px;
+    border-color: #0d1137;
+    background-color: #0d1137;
+    color:#e52165;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    width : 100%;
+    bottom:0;
+    position:fixed;
+}
+
+.footer_icon{
+    width: 1.7rem;
+    height: 1.7rem;
+    padding: 0.5rem;
+    display: inline;
+}

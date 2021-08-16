@@ -4,14 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <input type="number" class="side" placeholder="Enter first side" />
-    <input type="number" class="side" placeholder="Enter second side" />
-    <button id="find">Find Hypotenuse</button>
-    <p id="result"></p>
+    <div class="parent">
+        <nav>
+            <div class="navigation-links">
+                <a class="nav-pills" href="index.html">Is Triangle ?</a>
+                <a class="nav-pills active-page" href="findHypotenuse.html">Find Hypotenuse</a>
+                <a class="nav-pills" href="findArea.html">Find Area</a>
+                <a class="nav-pills" href="triangleQuiz.html">Quiz</a>
+            </div>
+        </nav>
 
+        <input  id="user-input" type="number" class="side" placeholder="Enter first side" />
+        <input  id="user-input" type="number" class="side" placeholder="Enter second side" />
+        <button id="find">Find Hypotenuse</button>
+        <p id="result"></p>
+
+        <div class="footer">
+            <a href="https://github.com/samyukthasudhakar"><img src="github.svg"  class="footer_icon"></a>
+            <a href="https://www.linkedin.com/in/samyukthasudhakar/"><img src="linkedin.svg" class="footer_icon"></a>
+            <a href="https://twitter.com/samyuktha7300"><img src="twitter.svg"  class="footer_icon"></a>
+            <a href="https://samyukthasudhakar.netlify.app/"><img src="person.svg"  class="footer_icon"></a>
+        </div>
+    
+    </div>
+   
+    
     <script src="findHypotenuse.js"></script>
 </body>
 </html>

@@ -4,37 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <form id="quizForm">
-        <div>
-            <p>
-                A triangle with one 90° angle is called
-            </p>
-            <label><input type="radio" name="question1" value="Acute">Acute</label>
-            <label><input type="radio" name="question1" value="Right">Right</label>
-            <label><input type="radio" name="question1" value="Obtuse">Obtuse</label>
+    <div class="parent">
+        <nav>
+            <div class="navigation-links">
+                <a class="nav-pills" href="index.html">Is Triangle ?</a>
+                <a class="nav-pills" href="findHypotenuse.html">Find Hypotenuse</a>
+                <a class="nav-pills" href="findArea.html">Find Area</a>
+                <a class="active-page nav-pills" href="triangleQuiz.html">Quiz</a>
+            </div>
+        </nav>
+        <form class="quiz-Form">
+            <div>
+                <p>
+                    1 ) A triangle with one 90° angle is called
+                </p>
+                <label><input type="radio" class = "quiz-radio" name="question1" value="Acute">Acute</label>
+                <label><input type="radio" class = "quiz-radio" name="question1" value="Right">Right</label>
+                <label><input type="radio" class = "quiz-radio" name="question1" value="Obtuse">Obtuse</label>
+            </div>
+            <div>
+                <p>
+                    2 ) The sum of interior angles of a triangle add up to
+                </p>
+                <label><input type="radio" class = "quiz-radio" name="question2" value="90°">90°</label>
+                <label><input type="radio" class = "quiz-radio" name="question2" value="360°">360°</label>
+                <label><input type="radio" class = "quiz-radio" name="question2" value="180°">180°</label>
+            </div>
+            <div>
+                <p>
+                    3 ) A triangle where all sides are congruent is called
+                </p>
+                <label><input type="radio" class = "quiz-radio" name="question3" value="Equilateral">Equilateral</label>
+                <label><input type="radio" class = "quiz-radio" name="question3" value="Isosceles">Isosceles</label>
+                <label><input type="radio" class = "quiz-radio" name="question3" value="Scalene">Scalene</label>
+            </div>
+        </form>
+        <button id="check">Submit</button>
+        <p id="result"></p>
+
+        <div class="footer">
+            <a href="https://github.com/samyukthasudhakar"><img src="github.svg"  class="footer_icon"></a>
+            <a href="https://www.linkedin.com/in/samyukthasudhakar/"><img src="linkedin.svg" class="footer_icon"></a>
+            <a href="https://twitter.com/samyuktha7300"><img src="twitter.svg"  class="footer_icon"></a>
+            <a href="https://samyukthasudhakar.netlify.app/"><img src="person.svg"  class="footer_icon"></a>
         </div>
-        <div>
-            <p>
-                The sum of interior angles of a triangle add up to
-            </p>
-            <label><input type="radio" name="question2" value="90°">90°</label>
-            <label><input type="radio" name="question2" value="360°">360°</label>
-            <label><input type="radio" name="question2" value="180°">180°</label>
-        </div>
-        <div>
-            <p>
-                A triangle where all sides are congruent is called
-            </p>
-            <label><input type="radio" name="question3" value="Equilateral">Equilateral</label>
-            <label><input type="radio" name="question3" value="Isosceles">Isosceles</label>
-            <label><input type="radio" name="question3" value="Scalene">Scalene</label>
-        </div>
-    </form>
-    <button id="check">Submit</button>
-    <p id="result"></p>
+    </div>
+    
 
     <script src="triangleQuiz.js"></script>
 </body>
