@@ -12,10 +12,10 @@ function checkIfTriangle(){
     const sumValue = calculateSumOfAngles(Number(angles[0].value),Number(angles[1].value),Number(angles[2].value));
     console.log(sumValue);
     if (sumValue===180){
-        output.innerText = "Yay, the angle values entered make a triangle 🥳";
+        output.innerText = "Yay, the angle values form a triangle 🥳";
     }
     else{
-        output.innerText = "Oops, the angles entered don't form a triangle 😓";
+        output.innerText = "Oops, the angles don't form a triangle 😓";
     }
 }
 

@@ -48,8 +48,12 @@ nav{
     align-items: center;
     text-align:center;
     margin : auto;
-    padding: 0.5rem 0; 
-    width : 50vw;
+    padding: 3rem 0; 
+    width : 60vw;
+}
+
+.quiz-container{
+    text-align:left;
 }
 
 input,button{
@@ -57,7 +61,7 @@ input,button{
     background: linear-gradient(
         to right bottom,
         rgba(255,255,255,0.7),
-        rgba(255,255,255,0.3)
+        rgba(255,255,255,0.5)
     );
     color:black;
     border:none;
