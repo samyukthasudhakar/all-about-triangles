@@ -12,7 +12,7 @@ function calculateArea(){
     var s = (a+b+c)/2
 
     var value = s*(s-a)*(s-b)*(s-c);
-    var area = Math.sqrt(value);
+    var area = Math.sqrt(value).toFixed(4);
 
     result.innerText = "The area of the triangle is " + area + " sq units.";
 }
