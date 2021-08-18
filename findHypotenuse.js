@@ -9,7 +9,7 @@ function sumOfSquares(a,b){
 
 function findHypotenuse(){
     const sumOfTwoSides = sumOfSquares(Number(sides[0].value),Number(sides[1].value));
-    const hypotenuse = Math.sqrt(sumOfTwoSides);
+    const hypotenuse = Math.sqrt(sumOfTwoSides).toFixed(2);
     result.innerText = "The lenght of hypotenuse is " + hypotenuse + " units.";
 }
 
