@@ -56,10 +56,6 @@ nav{
     width : 60vw;
 }
 
-.quiz-container{
-    text-align:left;
-}
-
 input,button{
     background: white;
     background: linear-gradient(

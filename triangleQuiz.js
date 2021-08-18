@@ -19,7 +19,7 @@ function checkAnswers(){
         result.innerText="Answer all Questions 👆🏽";
     }
     else{
-        result.innerText="Score : "+count+"/4";
+        result.innerText="Score : "+count+" / 4";
     }
     
 }
