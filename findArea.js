@@ -14,7 +14,7 @@ function calculateArea(){
     var value = s*(s-a)*(s-b)*(s-c);
     var area = Math.sqrt(value).toFixed(4);
 
-    result.innerText = "The area of the triangle is " + area + " sq units.";
+    result.innerText = "The area of the triangle using Heron's Formula is " + area + " sq units.";
 }
 
 calculate.addEventListener("click",calculateArea);
