@@ -2,7 +2,7 @@ const quizForm = document.querySelector(".quiz-Form");
 const check = document.querySelector("#check");
 const result = document.querySelector("#result");
 
-var correctAnswers = ["Right","180°","Equilateral"];
+var correctAnswers = ["Right","180°","Equilateral","90°"];
 
 function checkAnswers(){
     var count=0;
@@ -15,11 +15,11 @@ function checkAnswers(){
         index = index + 1;
     }
     
-    if(index!=3){
+    if(index!=4){
         result.innerText="Answer all Questions 👆🏽";
     }
     else{
-        result.innerText="Score : "+count+"/3";
+        result.innerText="Score : "+count+"/4";
     }
     
 }
